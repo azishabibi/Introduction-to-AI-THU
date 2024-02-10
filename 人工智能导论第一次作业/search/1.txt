@@ -1,0 +1,20 @@
+python play.py --player_1 CuttingOffAlphaBetaSearchPlayer --player_2 CuttingOffAlphaBetaSearchPlayer --max_depth 1 --evaluation_func detailed_evaluation_func
+
+
+
+python play.py --player_1 AlphaZeroPlayer --player_2 Human --evaluation_func detailed_evaluation_func
+
+
+python play.py --player_1 Human --player_2 AlphaZeroPlayer --evaluation_func detailed_evaluation_func
+
+
+python play.py --player_1 AlphaZeroPlayer --player_2 CuttingOffAlphaBetaSearchPlayer --max_depth 1 --evaluation_func detailed_evaluation_func
+
+
+
+python play.py --width 3 --height 3 --n_in_row 3 --player_1 MCTSPlayer --player_2 MinimaxSearchPlayer
+
+python play.py --player_1 CuttingOffAlphaBetaSearchPlayer --player_2 CuttingOffAlphaBetaSearchPlayer --max_depth 1 --evaluation_func detailed_evaluation_func
+
+
+python play.py --player_1 MCTSPlayer --player_2 CuttingOffAlphaBetaSearchPlayer --max_depth 1 --evaluation_func detailed_evaluation_func
